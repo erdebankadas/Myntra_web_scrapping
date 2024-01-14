@@ -6,7 +6,7 @@
 
 RUN THIS PROJECT ---
 
-cd original/original2
+
 
 pip install -r requirements.txt
 
