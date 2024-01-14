@@ -23,5 +23,6 @@ original2.py ---- multiple page(here upto 5 pages ) scrapping
 GENERATED CSV FILE ----
 
 for "original.py" ----  my_scraped_products_original_one_pg.csv
+
 for "original2.py" ----  my_scraped_products_upto5pg.csv
   
