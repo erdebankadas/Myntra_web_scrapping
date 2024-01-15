@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+# made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
 
 driver = webdriver.Chrome()  # Replace with your preferred browser driver
 url = "https://www.myntra.com/personal-care"
@@ -45,6 +46,7 @@ try:
             #     product_urls.append(product_url)
             product_url_element = product.find_element(By.CSS_SELECTOR, "a[data-refreshpage='true']")
             product_url = product_url_element.get_attribute("href")
+            # made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
            
 
             product_data.append({
@@ -61,6 +63,7 @@ try:
                 "breadcrumb": breadcrumb ,
                 # "product_urls":product_urls,
                 "product_url": product_url 
+                # made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
                 
                 
             })
